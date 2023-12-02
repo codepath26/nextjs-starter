@@ -5,9 +5,9 @@ function Details({params}) {
   console.log(params.details);
   return (
     <>
-    {params.details === "1" && <p>name: 'Yash', role: 'Senior Developer</p>}
-    {params.details === "2" && <p> name: 'Vaibhav', role: 'Backend Developer</p>}
-    {params.details === "3" && <p>name: 'Suresh', role: 'Frontend Developer</p>}
+    {params.details === "1" && <p> role: 'Senior Developer</p>}
+    {params.details === "2" && <p>  role: 'Backend Developer</p>}
+    {params.details === "3" && <p> role: 'Frontend Developer</p>}
       
     </>
   )
